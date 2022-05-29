@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolumeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balok"
+        android:textSize="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/editText_sideCube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter side"
+        android:textSize="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        />
+
+
+    <TextView
+        android:id="@+id/text_resCube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="295dp"/>
+
+    <Button
+        android:id="@+id/button_calcCube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pyramid"
+        android:textSize="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"/>
+
+    <EditText
+        android:id="@+id/editText_baseLenPyramid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Base length"
+        android:textSize="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_baseWidPyramid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Base width"
+        android:textSize="16dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="200dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_heightPyramid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter height"
+        android:textSize="16dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+        android:id="@+id/text_resPyramid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="16dp"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button_calcPyramid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tabung"
+        android:textSize="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="360dp"/>
+
+    <EditText
+        android:id="@+id/editText_radiusCylinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter radius"
+        android:textSize="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="380dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_heightCylinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter height"
+        android:textSize="16dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="380dp"
+        />
+
+    <TextView
+        android:id="@+id/text_resCylinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="16dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="295dp"/>
+
+    <Button
+        android:id="@+id/button_calcCylinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        />
+
+</RelativeLayout>

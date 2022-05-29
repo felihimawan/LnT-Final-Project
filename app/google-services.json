@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "725053383058",
+    "project_id": "finalproject-lnt-a23df",
+    "storage_bucket": "finalproject-lnt-a23df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725053383058:android:ecdfc6080c5d7a8cd6a14b",
+        "android_client_info": {
+          "package_name": "com.finalproject_lnt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725053383058-alc6t97l2l8gm89hp63iucoj3ju9bpr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTYhfYzOeigdnXhEEJeZ44UWW3LvP-n3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725053383058-alc6t97l2l8gm89hp63iucoj3ju9bpr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
